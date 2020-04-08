@@ -11,6 +11,8 @@ function yourAnimal() {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: Hard-coding 'cat' below will not work
+  animal = "cat";
+  co = animal;nsole.log(animal)
   return animal;
 }
 
@@ -30,5 +32,5 @@ var funkyFunction = function() {
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
-var theFunk = funkyFunction();
+var theFunk = funkyFunction; 
 
